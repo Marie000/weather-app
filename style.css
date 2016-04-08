@@ -1,0 +1,28 @@
+body{
+  background-size:cover;
+  text-align:center;
+  font-family: 'Great Vibes', cursive;
+  background-color:grey;
+}
+
+#box {
+  background-color:white;
+  opacity:0.7;
+  padding:50px;
+  margin-top:20px;
+  margin-left:100px;
+  margin-right:100px;
+  font-size:7vmin;
+  border-radius:20px;
+  backgroun-reapeat:no-repeat;
+}
+#title {
+  background-color:white;
+  opacity:0.7;
+  padding:50px;
+  margin-top:20px;
+  margin-left:100px;
+  margin-right:100px;
+  font-size:7vmin;
+  border-radius:20px;
+}
