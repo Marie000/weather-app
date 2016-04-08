@@ -18,7 +18,7 @@ function foundLocation(position) {
   var lat0 = position.coords.latitude;
   var long0 = position.coords.longitude;
   getCurrentWeather(lat0,long0);
-  getForecast(lat0,lon0);
+  getForecast(lat0,long0);
 }
 
 function getCurrentWeather(latitude,longitude){
@@ -60,6 +60,12 @@ function getForecast(latitude,longitude){
     type: 'GET',
     data: {},
     success: function(data) {
+
+        var Day1 = new Day(data.list[0].temp.max,data.list[0].temp.min,data.list[0].weather.description,data.list[0].weather.icon,data.list[0].humidity);
+
+        $("#day1Max").html(Day1.tempMax);
+        $("#day1Min").html(Day1.tempMin);
+        $("#day1Weather").html(Day1.weather);
 
         },
   });
