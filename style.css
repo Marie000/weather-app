@@ -11,20 +11,38 @@ li{
   width:50%;
   font-size:5vmin;
 }
+a {
+  margin-right:0 !important;
+  color: black;
+}
 #box {
-  background-color:white;
+  background-color:#dddddd;
   opacity:0.7;
   padding:50px;
-  margin: 0 50px;
+  margin: 0 50px 100px 50px;
   font-size:7vmin;
-  backgroun-reapeat:no-repeat;
+  background-reapeat:no-repeat;
   border-radius:0 0 5px 5px;
+
 }
 #title {
-  background-color:white;
+  background-color:#dddddd;
   opacity:0.7;
   padding:50px;
   margin:20px 50px;
-  font-size:7vmin;
+  font-size:8vmin;
   border-radius:5px;
+}
+#forecast {
+  font-size:5vmin;
+}
+h2 {
+  font-size:7vmin;
+}
+.day {
+  padding:10px;
+  border-radius:5px;
+  background-color:white;
+  opacity:0.9;
+  margin-bottom:10px;
 }
