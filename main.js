@@ -97,6 +97,9 @@ $('#humidity').html("humidity: "+JSON.stringify(data.main.humidity)+"%")
   break;
 
  }
+},
+error: function(){
+  $('#temperature').html("An error occured while retrieving weather info. Please reload.")
 }
 })
 }
@@ -171,6 +174,9 @@ function getForecast(latitude,longitude){
         $("#day4Weather").html(Day4.weather);
 
         },
+    error: function(){
+      $('#forecast-title').html("An error occured while retrieving weather info. Please reload.")
+    }
   });
 }
 getGeoLocation();  

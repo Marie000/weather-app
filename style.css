@@ -1,7 +1,7 @@
 body{
   background-size:cover;
   text-align:center;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', sans-serif;
   background-color:grey;
 }
 .nav{
@@ -23,7 +23,6 @@ a {
   font-size:7vmin;
   background-reapeat:no-repeat;
   border-radius:0 0 5px 5px;
-
 }
 #title {
   background-color:#dddddd;
